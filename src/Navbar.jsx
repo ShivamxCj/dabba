@@ -21,7 +21,7 @@ const Navbar = () => {
             {navItems.map((items, index) => (
               <li
                 key={index}
-                className="hover:text-teal-600 ease-in-out duration-200"
+                className="hover:text-orange-500 ease-in-out duration-200"
               >
                 <a href={items.href}>{items.label}</a>
               </li>
@@ -29,9 +29,8 @@ const Navbar = () => {
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
-              href="mailto:nainatiwari080105@gmail.com"
-              className="bg-gradient-to-r from-teal-500 to-teal-800 text-white py-2 px-3 rounded-md
-             hover:bg-none hover:bg-transparent hover:text-teal-400 transition duration-300"
+              className="bg-orange-500 text-white py-2 px-3 rounded-md
+             hover:bg-none hover:bg-transparent hover:text-orange-500 transition duration-300"
             >
               Contact me
             </a>
