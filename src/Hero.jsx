@@ -5,7 +5,7 @@ import snacks from "./assets/snacks.png"
 
 const Hero = () => {
   return (
-    <section className="relative h-screen w-full">
+    <section className="relative min-h-screen w-full">
       {/* moto text */}
       <div className="p-12">
         <h1 className="text-black text-4xl md:text-6xl font-bold text-center px-4 transform">

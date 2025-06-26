@@ -4,3 +4,4 @@ export const navItems = [
   { label: "My orders", href: "#links" },
 
 ];
+export const categories = ["Tiffin Plans", "Daily Combos", "Meal Boxes", "Drinks"]

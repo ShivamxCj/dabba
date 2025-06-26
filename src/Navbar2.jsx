@@ -14,15 +14,16 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "./assets/logo.png";
 import { navItems } from "./constants";
+import { categories } from "./constants";
 
-const Example = () => {
+const NewNavbar= () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
   const [showProfileMenu, setShowProfileMenu] = useState(false);
   const [location, setLocation] = useState("Detecting...");
   const [pincode, setPincode] = useState("");
   const [showCategories, setShowCategories] = useState(false);
   const profileRef = useRef();
-  const categories = ["Tiffin Plans", "Daily Combos", "Meal Boxes", "Drinks"];
+  
 
   const toggleMobileDrawer = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
@@ -157,6 +158,7 @@ const Example = () => {
                 )}
               </AnimatePresence>
             </div>
+            {/* -----mobile view---------- */}
 
             <div className="lg:hidden flex items-center">
               <button onClick={toggleMobileDrawer}>
@@ -227,4 +229,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default NewNavbar;
