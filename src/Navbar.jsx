@@ -12,7 +12,6 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 py-3 bg-white ">
   <div className="container px-4 mx-auto">
     <div className="flex items-center justify-between">
-
       {/* Logo aligned to the left with margin */}
       <div className="flex items-center flex-shrink-0 ml-4">
         <img className="h-12 w-24" src={logo} alt="logo" />
