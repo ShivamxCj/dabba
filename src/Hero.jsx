@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen w-full">
       {/* moto text */}
-      <div className="p-12">
-        <h1 className="text-black text-4xl md:text-6xl font-bold text-center px-4 transform">
+      <div className="p-2 mt-5 mb-0 md:mt-16 ">
+        <h1 className="text-black text-3xl md:text-6xl font-bold text-center px-4 transform">
           Ghar jaisa khana <br />{" "}
           <span className="text-orange-500">Yahi se mangana</span>
         </h1>
       </div>
 
-      <div className="rounded m-4 mx-12">
+      <div className="rounded m-4 mx-8 my-4 md:my-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
 
           {/* Card 1 */}
