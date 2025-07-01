@@ -33,7 +33,7 @@ const Footer = () => {
 
         {/* Social Media */}
         <div className="bg-white rounded-xl p-4 shadow-md">
-          <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
+          <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
           <div className="flex items-center gap-4">
             <a
               href="#"
@@ -41,7 +41,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-orange-600"
             >
-              Instagram
+              support@dabbafy.com
             </a>
             <a
               href="#"
@@ -78,7 +78,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="p-2 mt-8 mb-2">
-        © {new Date().getFullYear()} Dabba | All rights reserved
+        <span className="font-bold">Carved with love, Varanasi, India</span> {""} <br />
+        <span className="text-xs">© {new Date().getFullYear()} Dabba | All rights reserved</span>
       </div>
       <motion.div
         initial={{ width: 0 }}
